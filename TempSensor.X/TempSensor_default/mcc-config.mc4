@@ -57,9 +57,9 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.h
   hash: 37a2fe49c8f5ae3ff7de4dc79dc6742aa04f80f1bbe21c15d8abab57a391c64e
 - file: ..\src\config\default\peripheral\port\plib_port.c
-  hash: d27b5a32f19fdcdf9dc569c30a67ad3009a9f89192e8d66d5a25a45b918335a5
+  hash: ef5fea195adfab0b5b9ec9483cf1763131d1e7796237c9f40884d9ea5832d9ae
 - file: ..\src\config\default\peripheral\port\plib_port.h
-  hash: f846ac2deef4c6b3da472f3df416797ffb0015bedb9ca34aff999a1f38bfda6d
+  hash: 7c6a085f635b2f5e8f86dab3716c3bd7f19bb6f0bc1bc81ad8b43f143ea8e3ba
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom1_usart.c
   hash: fc69c2b5ea709bf2a39ff8d632f32c22b667c2bf579ab0a4b0daea474784f081
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom1_usart.h
@@ -71,7 +71,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\systick\plib_systick.h
   hash: 43e550acb1089f7ee29aedf3097aa66ce3e5a25c03b9794c8f230fb1dbd516dd
 - file: ..\src\config\default\pin_configurations.csv
-  hash: 91bbf054d4bbd0642a2a9269317e1146753e7ef62151747cec978cca6699e7ad
+  hash: 3cd2423c0073f2ec3ff24adf04ce356df61aacd530c2bbe40f0c1a5959bbe1ef
 - file: ..\src\config\default\startup_xc32.c
   hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
 - file: ..\src\config\default\stdio\xc32_monitor.c

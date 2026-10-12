@@ -499,6 +499,82 @@ data:
           type: User
         type: Values
       type: String
+    PIN_22_DIR:
+      attributes:
+        id: PIN_22_DIR
+        label: Direction
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_22_FUNCTION_NAME:
+      attributes:
+        id: PIN_22_FUNCTION_NAME
+        label: Name
+      children:
+      - children:
+        - attributes:
+            value: LED0
+          type: User
+        type: Values
+      type: String
+    PIN_22_FUNCTION_TYPE:
+      attributes:
+        id: PIN_22_FUNCTION_TYPE
+        label: Type
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_22_INEN:
+      attributes:
+        id: PIN_22_INEN
+        label: Input Enable
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_22_LAT:
+      attributes:
+        id: PIN_22_LAT
+        label: Initial Latch Value
+      type: String
+    PIN_22_MODE:
+      attributes:
+        id: PIN_22_MODE
+        label: Mode
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_22_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_22_PERIPHERAL_FUNCTION
+        label: Peripheral Selection
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_22_PULLEN:
+      attributes:
+        id: PIN_22_PULLEN
+        label: Pull Enable
+      type: String
     PIN_2_DIR:
       attributes:
         id: PIN_2_DIR
@@ -593,7 +669,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x0'
+            value: '0x800000'
           type: Dynamic
         type: Values
       type: String
@@ -645,6 +721,18 @@ data:
           type: Dynamic
         type: Values
       type: String
+    PORT_GROUP_0_PAD_23:
+      attributes:
+        id: PORT_GROUP_0_PAD_23
+        label: PORT_GROUP_0_PAD_23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA23
+          type: Dynamic
+        type: Values
+      type: String
     PORT_GROUP_0_PINCFG0:
       attributes:
         id: PORT_GROUP_0_PINCFG0
@@ -681,6 +769,18 @@ data:
           type: Dynamic
         type: Values
       type: String
+    PORT_GROUP_0_PINCFG23:
+      attributes:
+        id: PORT_GROUP_0_PINCFG23
+        label: PORT GROUP A PINCFG23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
     PORT_GROUP_0_PIN_0_USED:
       attributes:
         id: PORT_GROUP_0_PIN_0_USED
@@ -697,6 +797,18 @@ data:
       attributes:
         id: PORT_GROUP_0_PIN_1_USED
         label: PORT_GROUP_0_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_23_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_23_USED
+        label: PORT_GROUP_0_PIN_23_USED
       children:
       - children:
         - attributes:
@@ -738,6 +850,18 @@ data:
         - attributes:
             id: core
             value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX11:
+      attributes:
+        id: PORT_GROUP_0_PMUX11
+        label: PORT GROUP A PMUX11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
