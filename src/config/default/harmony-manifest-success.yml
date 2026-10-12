@@ -4,7 +4,7 @@
 
 
 project: TempSensor
-creation_date: 2026-10-11T20:04:24.287-05:00[America/Chicago]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-10-11T23:48:02.249-05:00[America/Chicago]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.7.0
@@ -15,7 +15,9 @@ compiler: XC32 4.45
 
 modules:
     - {name: "csp", version: "v3.20.0"}
+    - {name: "core", version: "v3.17.1"}
     - {name: "CMSIS_5", version: "5.9.0"}
+    - {name: "FreeRTOS-Kernel", version: "V11.3.1"}
 
 packs:
     - {name: "PIC32CM-MC_DFP", version: "1.4.67"}

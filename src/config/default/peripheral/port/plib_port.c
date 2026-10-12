@@ -71,12 +71,15 @@
 void PORT_Initialize(void)
 {
    /************************** GROUP 0 Initialization *************************/
+   PORT_REGS->GROUP[0].PORT_DIR = 0x800000U;
    PORT_REGS->GROUP[0].PORT_PINCFG[0] = 0x1U;
    PORT_REGS->GROUP[0].PORT_PINCFG[1] = 0x1U;
    PORT_REGS->GROUP[0].PORT_PINCFG[2] = 0x1U;
+   PORT_REGS->GROUP[0].PORT_PINCFG[23] = 0x0U;
 
    PORT_REGS->GROUP[0].PORT_PMUX[0] = 0x33U;
    PORT_REGS->GROUP[0].PORT_PMUX[1] = 0x1U;
+   PORT_REGS->GROUP[0].PORT_PMUX[11] = 0x0U;
 
 
 }
