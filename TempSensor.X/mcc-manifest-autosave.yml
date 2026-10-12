@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: TempSensor
-creation_date: 2026-10-11T23:36:11.678-05:00[America/Chicago]
+creation_date: 2026-10-11T23:48:02.435-05:00[America/Chicago]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.35
@@ -19,4 +19,6 @@ device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name:
 packs: {name: PIC32CM-MC_DFP, version: 1.4.67}
 modules:
 - {name: csp, type: HARMONY, version: v3.20.0}
+- {name: core, type: HARMONY, version: v3.17.1}
 - {name: CMSIS_5, type: HARMONY, version: 5.9.0}
+- {name: FreeRTOS-Kernel, type: HARMONY, version: V11.3.1}
