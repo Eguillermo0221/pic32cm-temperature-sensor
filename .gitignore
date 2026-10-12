@@ -1,0 +1,8 @@
+.ignore
+dist/
+build/
+*.o
+*.elf
+*.hex
+*.map
+nbproject/private/
